@@ -1,6 +1,6 @@
 # Twilio-Covid SMS Notifier
 
-This project is based on a web scraper that scraps the data regarding the covid-19 cases of Kerala(which can be changed according to requirement) and sends it to your mobile via SMS everyday at 20:30 (The time can be changed using crontab)
+This project is based on an api that serves data regarding the covid-19 cases of Kerala(which can be changed according to requirement) and sends it to your mobile via SMS everyday at 20:30 (The time can be changed using crontab)
 
 # Current-Covid World Stats
 
