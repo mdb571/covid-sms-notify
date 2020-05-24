@@ -43,8 +43,8 @@ def inbound_sms():
     message = client.messages \
                 .create(
                      body=get_status(),
-                     from_='+1 870 686 4040',
-                     to='+919995153948'
+                     from_='your-twilio-no-here', #use your twilio no here
+                     to='your-verified-phone-no', #use your verified phone no. here
                  )
     print(message.sid)
     return("Your request was send")
