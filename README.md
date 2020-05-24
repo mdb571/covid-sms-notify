@@ -17,6 +17,7 @@ pip install -r requirements.txt
 * You will be provided with a dashboard.
 
 * Go to Settings and you will see your 'ACCOUNT SID' and 'AUTH TOKEN' under 'LIVE CREDENTIALS'.
+
 ![Verified Number](/img/img2.png)
 
 * Go to 'Products and Services' on the left dashboard.
@@ -25,11 +26,13 @@ pip install -r requirements.txt
 * You need to manually verify the numbers you need by clicking the '+'.<br />
 
 ![Verified Number](/img/img1.png)
+
 * Then go your active numbers and in the messaging section setup your webhook by entering your domain in the 'A Message comes in" section.
 
 ![Webhook](/img/img3.png)
 
 ## Setting up the Program
+
 Add your Account SID and Auth Token
 ```python
 ACCOUNT_SID = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
@@ -63,7 +66,7 @@ python schedule.py
 
 
 
-## Editing the schedule time of  each SMS
+## Scheduling SMS
 If you feel like you need to change the time for recieving updates. 
  
 ```bash
