@@ -2,7 +2,7 @@
 
 This project is based on a web scraper that scraps the data regarding the covid-19 cases of Kerala(which can be changed according to requirement) and sends it to your mobile via SMS everyday at 20:30 (The time can be changed using crontab)
 
-#Current-Covid World Stats
+# Current-Covid World Stats
 
 ![Covid-19 Cases](https://covid19-badges.herokuapp.com/confirmed/latest)  ![Covid-19 Deaths](https://covid19-badges.herokuapp.com/deaths/latest)
 
@@ -74,7 +74,10 @@ Then append the following line and save
 * * * * *  /usr/bin/python /path/to/schedule.py
 ```
 where the parameters are as 
+
 ![param](/img/param.png)
+
+Give a ⭐ if you like my project
 
 
 Feel free to comment your feedback❤️
