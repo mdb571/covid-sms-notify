@@ -16,12 +16,12 @@ client = Client(ACCOUNT_SID, AUTH_TOKEN)
 app=Flask(__name__)
        
 def get_status():
-    today=date.today().strftime("%d/%m/%Y") 
+    today=date.today().strftime("%d-%m-%y") 
     
     data = requests.get('https://api.covid19india.org/states_daily.json').json()
 
     for _ in reversed(data['states_daily']):
-        if _['date']=="23-May-20":
+        if str(_['date'])==today:
             if _['status']=="Confirmed":
                 confirmed=_['kl']
             if _['status']=="Recovered":
