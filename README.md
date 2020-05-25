@@ -1,8 +1,8 @@
 # Twilio-Covid SMS Notifier
 
-This project is based on a web scraper that scraps the data regarding the covid-19 cases of Kerala(which can be changed according to requirement) and sends it to your mobile via SMS everyday at 20:30 (The time can be changed using crontab)
+This project is based on an api that serves data regarding the covid-19 cases of Kerala(which can be changed according to requirement) and sends it to your mobile via SMS(This process can be changed using crontab)
 
-#Current-Covid World Stats
+# Current-Covid World Stats
 
 ![Covid-19 Cases](https://covid19-badges.herokuapp.com/confirmed/latest)  ![Covid-19 Deaths](https://covid19-badges.herokuapp.com/deaths/latest)
 
@@ -17,6 +17,7 @@ pip install -r requirements.txt
 * You will be provided with a dashboard.
 
 * Go to Settings and you will see your 'ACCOUNT SID' and 'AUTH TOKEN' under 'LIVE CREDENTIALS'.
+
 ![Verified Number](/img/img2.png)
 
 * Go to 'Products and Services' on the left dashboard.
@@ -25,11 +26,13 @@ pip install -r requirements.txt
 * You need to manually verify the numbers you need by clicking the '+'.<br />
 
 ![Verified Number](/img/img1.png)
+
 * Then go your active numbers and in the messaging section setup your webhook by entering your domain in the 'A Message comes in" section.
 
 ![Webhook](/img/img3.png)
 
 ## Setting up the Program
+
 Add your Account SID and Auth Token
 ```python
 ACCOUNT_SID = 'ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
@@ -63,7 +66,7 @@ python schedule.py
 
 
 
-## Editing the schedule time of  each SMS
+## Scheduling SMS
 If you feel like you need to change the time for recieving updates. 
  
 ```bash
@@ -74,10 +77,12 @@ Then append the following line and save
 * * * * *  /usr/bin/python /path/to/schedule.py
 ```
 where the parameters are as 
+
 ![param](/img/param.png)
 
+## Support this project
 
-Feel free to comment your feedback❤️
+Give a ⭐ if you like my project❤️
 
 
  
