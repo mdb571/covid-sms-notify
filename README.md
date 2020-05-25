@@ -80,10 +80,9 @@ where the parameters are as
 
 ![param](/img/param.png)
 
-Give a ⭐ if you like my project
+## Support this project
 
-
-Feel free to comment your feedback❤️
+Give a ⭐ if you like my project❤️
 
 
  
