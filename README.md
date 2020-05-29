@@ -1,4 +1,5 @@
 # Twilio-Covid SMS Notifier
+![GitHub stars](https://img.shields.io/github/stars/mdb571/covid-sms-notify?style=flat-square)
 
 This project is based on an api that serves data regarding the covid-19 cases of Kerala(which can be changed according to requirement) and sends it to your mobile via SMS(This process can be changed using crontab)
 
