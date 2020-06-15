@@ -41,7 +41,7 @@ AUTH_TOKEN= 'your_auth_token'
 ```
 Then add the trial number created for your Account and your verified number
 ```python
-from_='+15017122661' #YOUR TRIAL PHONE NUMBER
+from_='+1********' #YOUR TRIAL PHONE NUMBER
 to=' ' #THE VERIFIED NUMBER THAT YOU NEED TO SEND THE SMS
 ```
 This is only a trial account so you can send SMS to only a single number at a time.
