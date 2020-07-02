@@ -47,8 +47,7 @@ to=' ' #THE VERIFIED NUMBER THAT YOU NEED TO SEND THE SMS
 This is only a trial account so you can send SMS to only a single number at a time.
 
 ## Covid India API
-
-I have used 2 api's since one is more frequently updated and the other as a backup in case today's stats have not been updated.I have used [covidindia](https://github.com/covid19india/api) API & [covidtrack](https://api.track-covid19.in/) for getting the covid stats for my state.You can modify the JSON query to fetch your states data.See their [documentation](https://github.com/covid19india/api/blob/master/README.md) for more details
+I have used [covidindia](https://github.com/covid19india/api) API for getting the covid stats for my state.You can modify the JSON query to fetch your states data.See their [documentation](https://github.com/covid19india/api/blob/master/README.md) for more details
 
 ## Usage
 Run the development server using 
